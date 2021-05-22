@@ -19,7 +19,7 @@ document.getElementById("para2").textContent +="The Document Object Model (DOM) 
 function showText() {
     document.getElementById("para4").textContent = "The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document."
 
-    }
+}
     
     document.getElementById("btn").addEventListener("click", showText)    
 
